@@ -1,5 +1,6 @@
-import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { SectionHeading } from "@/components/section-heading";
+import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC } from "@/lib/site-data";
 
 const INFO = [
@@ -59,7 +60,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="mt-7 flex items-center justify-center gap-2 rounded-full bg-brand px-7 py-3.5 font-semibold text-white shadow-lg shadow-brand/30 transition-colors hover:bg-brand-dark"
             >
-              <MessageCircle className="size-5" />
+              <WhatsAppIcon className="size-5" />
               WhatsApp Kami Sekarang
             </a>
           </div>

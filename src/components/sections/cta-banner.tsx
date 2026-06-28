@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC } from "@/lib/site-data";
 
 export function CtaBanner({
@@ -26,6 +27,7 @@ export function CtaBanner({
                 render={<a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" />}
                 className="rounded-full bg-white px-7 text-brand hover:bg-white/90"
               >
+                <WhatsAppIcon className="size-5" />
                 {cta}
               </Button>
             </div>

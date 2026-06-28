@@ -111,9 +111,18 @@ export const PANELS = [
 ] as const;
 
 export const TESTIMONIALS = [
-  { text: "Klinik bersih, kakitangan mesra dan doktor terangkan dengan jelas. Sangat berpuas hati.", name: "Pesakit di Bercham" },
-  { text: "Buka sehingga lewat malam, sangat membantu bila anak demam tengah malam.", name: "Pesakit di Bercham" },
-  { text: "Rawatan cepat dan harga berpatutan. Memang pilihan keluarga kami di Ipoh.", name: "Pesakit di Bercham" },
+  { text: "Syukur selesai menjalani pembuangan skin tag.. doktor yang sangat pakar dalam menjalani operasi pembuangan skin tag.. Staff pun friendly dan sangat membantu.. Sangat recommended", name: "Bob Perak" },
+  { text: "Suka sangat dgn uniklinik ni. Staf sgt bagus & sopan santun. Doktor Suha tu pon bagus, detail terangkan pasal sakit kita & sangatlah soft. Harga berpatutan & klinik super selesa. Memang tak cari klinik lain dh kalau tak sihat after this ❤️.", name: "Zarini Zaki" },
+  { text: "Bestt, datang awal pagi pun di treat dengan baik. Doctor baik, front desk pun friendly. Affordable dan lagi better, dekat dengan rumah hehe", name: "Aunie" },
+  { text: "1st time dtg uniklinik utk servis suction, sgt berpuas hati. Doc buat sehabis baik n xplain detail psl condition anak", name: "Nor Soleha" },
+  { text: "Servis mmg terbaek, anak rawatan kat klinik ni setiap minggu... iv mmg menjadi, skali cucuk dh settle rawatan... mmg friedly staff....", name: "Man Abon" },
+  { text: "Service terbaik.. staff n doc friendly.. harga berpatutan.. sy buat xanthelasma removal. Procedure yang sgt smooth.. terbaik doc. Very recommended", name: "RubyKingdom" },
+  { text: "Terbaik la doc dkt sni. Cepat selesai telinga yg tersumbat.", name: "Nur Fai'za" },
+  { text: "Klinik yang sangat okay dan selesa. Staff semua peramah. Doktor pun peramah dan sangat baik. Penjelasan untuk growth scan tadi sangat jelas. Terima kasih doktor dan staff uniklinik ❤️", name: "Ayu Eleena" },
+  { text: "Saya buat rawatan telinga kat sini untuk pertama kali dan saya berpuas hati. Doctor terangkan dengan jelas. Saya recommend klinik ini.", name: "Yani Ali" },
+  { text: "Saya first time dtg ke klinik UNI Perpaduan, Ipoh untuk buang lipoma di belakang. The experience memang tip top. Dari registration, sehingga tamat prosedure amat smooth. Dr Shuha byk membantu dan memberi penerangan yg jelas. Best nya, boleh terus walk-in dan tak perlu appointment. Lega masalah selesai. 👍👍👍", name: "Ahfuza" },
+  { text: "Service bgus.. staff ok baik, ramah.. snyum ja. Buat scan baby.. jelas btul.. dktr bgus explain jelas.. harga ok.. klinik cntik.. tiptop.. trbaik", name: "Asyakirin Meorzumir" },
+  { text: "My father is bedridden. We whatsapp / called for inquiry to this clinic and they are quick to response in details. This clinic has facility for phlegm removal & fortunate for us that they could make home visit, instead of us bringing him there. Doctor was very professional & given thorough explanations. After treatment, my father feels better relief. Kudos to Dr. Zuha. Anda telah memberi perhatian dan perkhidmatan terbaik!!!", name: "Cheng Kim Woh" },
 ] as const;
 
 // Clinic gallery photos (files in /public/galeri)

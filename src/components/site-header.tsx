@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC, NAV_LINKS } from "@/lib/site-data";
 import { cn } from "@/lib/utils";
 
@@ -53,6 +54,7 @@ export function SiteHeader() {
             render={<a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" />}
             className="rounded-full bg-brand px-5 hover:bg-brand-dark"
           >
+            <WhatsAppIcon className="size-4" />
             Hubungi Kami
           </Button>
         </nav>
@@ -85,6 +87,7 @@ export function SiteHeader() {
             render={<a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" />}
             className="mt-4 w-full rounded-full bg-brand hover:bg-brand-dark"
           >
+            <WhatsAppIcon className="size-4" />
             Hubungi Kami
           </Button>
         </nav>

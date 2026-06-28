@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { HeartPulse, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC, STATS } from "@/lib/site-data";
 
 const STAT_ACCENTS = ["text-brand", "text-brand-blue", "text-brand-teal"];
@@ -11,14 +12,22 @@ export function Hero() {
       id="home"
       className="relative overflow-hidden bg-gradient-to-br from-secondary via-white to-accent py-16 md:py-24"
     >
-      {/* storefront background image, low opacity */}
+      {/* storefront background image, low opacity — portrait crop on mobile, wide on desktop */}
+      <Image
+        src="/hero/storefront-mobile.png"
+        alt="Uniklinik Perpaduan"
+        fill
+        priority
+        sizes="100vw"
+        className="pointer-events-none absolute inset-0 object-cover object-[35%_top] opacity-60 md:hidden"
+      />
       <Image
         src="/hero/APS08370.jpg"
         alt="Uniklinik Perpaduan"
         fill
         priority
         sizes="100vw"
-        className="pointer-events-none absolute inset-0 object-cover opacity-60"
+        className="pointer-events-none absolute inset-0 hidden object-cover opacity-60 md:block"
       />
       {/* soften the photo into the gradient for legible text */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/80 via-white/70 to-accent/80" />
@@ -29,10 +38,20 @@ export function Hero() {
 
       <div className="relative mx-auto grid w-[92%] max-w-6xl items-center gap-12 md:grid-cols-[1.1fr_0.9fr]">
         <div className="animate-fade-up">
-          <span className="inline-flex items-center gap-2 rounded-full bg-background px-4 py-1.5 text-sm font-semibold text-brand-navy shadow-sm ring-1 ring-border">
-            <span className="size-2 rounded-full bg-brand-teal" />
-            {CLINIC.hoursShort}
-          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="inline-flex items-center gap-2 rounded-full bg-background px-4 py-1.5 text-sm font-semibold text-brand-navy shadow-sm ring-1 ring-border">
+              <span className="size-2 shrink-0 rounded-full bg-brand-teal" />
+              <span className="flex flex-col leading-tight sm:flex-row sm:items-center sm:gap-1">
+                <span>Buka Setiap Hari</span>
+                <span className="hidden sm:inline">·</span>
+                <span>7:00 Pagi – 12:00 Tengah Malam</span>
+              </span>
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-full bg-background px-4 py-1.5 text-sm font-semibold text-brand-navy shadow-sm ring-1 ring-border">
+              <span className="size-2 rounded-full bg-brand" />
+              Walk-in Dialu-alukan
+            </span>
+          </div>
           <h1 className="mt-5 text-4xl font-extrabold leading-[1.1] md:text-5xl lg:text-6xl">
             Klinik Keluarga Anda di{" "}
             <span className="text-brand">Bercham, Ipoh</span>
@@ -50,6 +69,7 @@ export function Hero() {
               render={<a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" />}
               className="rounded-full bg-brand px-7 shadow-lg shadow-brand/30 hover:bg-brand-dark"
             >
+              <WhatsAppIcon className="size-5" />
               Tempah Temujanji
             </Button>
             <Button
@@ -102,7 +122,7 @@ export function Hero() {
                   Kesihatan
                 </p>
                 <p className="text-xs text-muted-foreground">
-                  Wanita &amp; Keluarga
+                  Pembedahan Kecil (Minor Surgery)
                 </p>
               </div>
             </div>

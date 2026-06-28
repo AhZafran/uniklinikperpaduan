@@ -1,6 +1,7 @@
 import { Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC, HOURS } from "@/lib/site-data";
 
 export function Hours() {
@@ -27,6 +28,7 @@ export function Hours() {
               render={<a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" />}
               className="rounded-full bg-brand px-7 shadow-lg shadow-brand/30 hover:bg-brand-dark"
             >
+              <WhatsAppIcon className="size-5" />
               Tempah Temujanji
             </Button>
           </div>

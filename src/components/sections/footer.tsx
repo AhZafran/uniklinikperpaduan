@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Camera, Music2, Share2 } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC } from "@/lib/site-data";
 
 const SOCIALS = [
@@ -64,7 +65,7 @@ export function SiteFooter() {
         <div>
           <h4 className="mb-3 font-semibold text-white">Hubungi</h4>
           <ul className="space-y-2.5 text-sm">
-            <li><a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" className="hover:text-white">WhatsApp Kami</a></li>
+            <li><a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-white"><WhatsAppIcon className="size-4" />WhatsApp Kami</a></li>
             <li>{CLINIC.phone}</li>
             <li>Taman Bercham Raya, Ipoh</li>
           </ul>
