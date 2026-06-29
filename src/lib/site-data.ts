@@ -31,7 +31,7 @@ export const STATS = [
 // 3 featured cards directly under the hero
 export const HIGHLIGHTS = [
   { icon: "healthicons:accident-and-emergency", title: "Rawatan Am & Kecemasan", desc: "Konsultasi harian dan rawatan kecemasan ringan setiap hari." },
-  { icon: "healthicons:diabetes", title: "Pengurusan Penyakit Kronik", desc: "Susulan kencing manis, darah tinggi dan kolesterol." },
+  { icon: "healthicons:ear", title: "Cuci Telinga dan Buang Bendasing", desc: "Pembersihan tahi telinga dan pengeluaran bendasing dengan selamat." },
   { icon: "healthicons:baby-0203m", title: "Kesihatan Wanita & Kanak-kanak", desc: "Penjagaan ibu, bayi dan keluarga di bawah satu bumbung." },
 ] as const;
 
@@ -94,20 +94,20 @@ export const WHY_US = [
 
 // Panel-provider logos (files in /public/panel)
 export const PANELS = [
-  { name: "G-Flex", src: "/panel/G-Flex-Logo-2.webp" },
-  { name: "WeCare", src: "/panel/We-care-Logo.png" },
-  { name: "IHP Healthcare", src: "/panel/ihp-logo.webp" },
-  { name: "MIYA", src: "/panel/images.png" },
-  { name: "KPSB Care", src: "/panel/kpsb.webp" },
-  { name: "MedKad", src: "/panel/medkad.png" },
-  { name: "eMAS", src: "/panel/panel-10.webp" },
+  { name: "PMCare", src: "/panel/pmcare.webp" },
+  { name: "Health Connect", src: "/panel/health-connect.webp" },
   { name: "Mednefits", src: "/panel/panel-14.png" },
-  { name: "ASP", src: "/panel/panel-2.png" },
-  { name: "Health Connect", src: "/panel/panel-3.webp" },
-  { name: "PeKa B40", src: "/panel/panel-8.jpg" },
-  { name: "PERKESO", src: "/panel/panel-9.jpg" },
-  { name: "PMCare", src: "/panel/panel-9.webp" },
+  { name: "eMAS", src: "/panel/emas.webp" },
   { name: "RedAlert", src: "/panel/redalert.png" },
+  { name: "MedKad", src: "/panel/medkad.png" },
+  { name: "IHP Healthcare", src: "/panel/ihp.webp" },
+  { name: "KPSB Care", src: "/panel/kpsb.webp" },
+  { name: "G-Flex", src: "/panel/Gflex.webp" },
+  { name: "WeCare", src: "/panel/wecare.png" },
+  { name: "MIYA", src: "/panel/miya.png" },
+  { name: "ASP", src: "/panel/asp.png" },
+  { name: "PeKa B40", src: "/panel/Pekab40.jpg" },
+  { name: "PERKESO HSP", src: "/panel/perkeso.jpg" },
 ] as const;
 
 export const TESTIMONIALS = [

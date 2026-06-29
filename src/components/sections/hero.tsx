@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { WhatsAppIcon } from "@/components/icons/whatsapp";
 import { CLINIC, STATS } from "@/lib/site-data";
 
-const STAT_ACCENTS = ["text-brand", "text-brand-blue", "text-brand-teal"];
+const STAT_ACCENTS = ["text-brand", "text-brand-blue", "text-brand-blue"];
 
 export function Hero() {
   return (
@@ -14,15 +14,15 @@ export function Hero() {
     >
       {/* storefront background image, low opacity — portrait crop on mobile, wide on desktop */}
       <Image
-        src="/hero/storefront-mobile.png"
+        src="/hero/mobileview1.png"
         alt="Uniklinik Perpaduan"
         fill
         priority
         sizes="100vw"
-        className="pointer-events-none absolute inset-0 object-cover object-[35%_top] opacity-60 md:hidden"
+        className="pointer-events-none absolute inset-0 object-cover object-center opacity-60 md:hidden"
       />
       <Image
-        src="/hero/APS08370.jpg"
+        src="/hero/klinik.jpeg"
         alt="Uniklinik Perpaduan"
         fill
         priority
@@ -67,19 +67,10 @@ export function Hero() {
               size="lg"
               nativeButton={false}
               render={<a href={CLINIC.whatsapp} target="_blank" rel="noopener noreferrer" />}
-              className="rounded-full bg-brand px-7 shadow-lg shadow-brand/30 hover:bg-brand-dark"
+              className="rounded-full bg-brand px-9 py-6 text-lg shadow-lg shadow-brand/30 hover:bg-brand-dark"
             >
-              <WhatsAppIcon className="size-5" />
-              Tempah Temujanji
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              nativeButton={false}
-              render={<a href="#services" />}
-              className="rounded-full border-2 border-brand-blue px-7 text-brand-blue hover:bg-brand-blue hover:text-white"
-            >
-              Lihat Perkhidmatan
+              <WhatsAppIcon className="size-6" />
+              Hubungi Kami
             </Button>
           </div>
 
