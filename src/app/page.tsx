@@ -10,6 +10,7 @@ import { Hours } from "@/components/sections/hours";
 import { Testimonials } from "@/components/sections/testimonials";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { Gallery } from "@/components/sections/gallery";
+import { HasilKami } from "@/components/sections/hasil-kami";
 import { Contact } from "@/components/sections/contact";
 import { SiteFooter } from "@/components/sections/footer";
 import { WhatsAppFloat } from "@/components/whatsapp-float";
@@ -45,6 +46,8 @@ export default function Home() {
         />
         {/* 12. Gallery */}
         <Gallery />
+        {/* 12b. Hasil Kami — scrollable results carousel */}
+        <HasilKami />
         {/* 13. Consultation CTA */}
         <CtaBanner
           title="Ada Pertanyaan? Kami Sedia Membantu"

@@ -14,7 +14,7 @@ export function Hero() {
     >
       {/* storefront background image, low opacity — portrait crop on mobile, wide on desktop */}
       <Image
-        src="/hero/mobileview1.png"
+        src="/hero/mobileview1.jpg"
         alt="Uniklinik Perpaduan"
         fill
         priority
