@@ -16,10 +16,10 @@ export function SiteFooter() {
         <div>
           <span className="inline-flex rounded-xl bg-white px-4 py-3 shadow-sm">
             <Image
-              src="/logo-perpaduan.png"
+              src="/logo/logo.png"
               alt={CLINIC.name}
-              width={1088}
-              height={371}
+              width={600}
+              height={260}
               className="h-10 w-auto"
             />
           </span>

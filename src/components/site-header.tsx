@@ -29,10 +29,10 @@ export function SiteHeader() {
       <div className="mx-auto flex h-18 w-[92%] max-w-6xl items-center justify-between py-3">
         <a href="#home" className="flex items-center" aria-label={CLINIC.name}>
           <Image
-            src="/logo-perpaduan.png"
+            src="/logo/logo.png"
             alt={CLINIC.name}
-            width={1088}
-            height={371}
+            width={600}
+            height={260}
             priority
             className="h-10 w-auto md:h-12"
           />
