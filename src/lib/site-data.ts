@@ -76,7 +76,7 @@ export const SERVICES = [
   { icon: "healthicons:stethoscope", title: "Rawatan Penyakit Am", desc: "Demam, batuk, selesema dan lain-lain." },
   { icon: "healthicons:health-worker-form", title: "Pemeriksaan Kesihatan", desc: "Ujian darah, bacaan darah tinggi dan gula." },
   { icon: "healthicons:baby-0306m", title: "Sedut Kahak Bayi & Kanak-kanak", desc: "Suction kahak untuk bayi dan kanak-kanak." },
-  { icon: "healthicons:pregnant", title: "Kesihatan Wanita", desc: "Buku pink, scan kehamilan & rahim, MGTT, perancang kehamilan, pap smear & GBS screening." },
+  { icon: "healthicons:pregnant", title: "Kesihatan Wanita", desc: "Buku pink, scan kehamilan & rahim, MGTT dan penjagaan ibu mengandung." },
   { icon: "healthicons:ultrasound-scanner", title: "Ultrasound", desc: "Buah pinggang, hati & hempedu, thyroid, prostat dan payudara." },
   { icon: "healthicons:blood-pressure-monitor", title: "Rawatan Penyakit Kronik", desc: "Kencing manis, darah tinggi, kolesterol dan gout." },
   { icon: "healthicons:syringe", title: "Ubat-ubatan Suntikan", desc: "Rawatan ubat-ubatan secara suntikan." },
