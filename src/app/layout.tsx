@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, DM_Sans } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 
 // Body text — Inter (matches unikliniksemabokperdana.com)
@@ -31,6 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ms" className={`${inter.variable} ${dmSans.variable} h-full antialiased`}>
+      <GoogleTagManager gtmId="GTM-W5G4P6DH" />
       <body className="flex min-h-full flex-col overflow-x-hidden bg-background text-foreground">
         {children}
       </body>
